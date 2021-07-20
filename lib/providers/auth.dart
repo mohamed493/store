@@ -35,7 +35,7 @@ class Auth with ChangeNotifier {
     // final url =
     //     'https://www.googleapis.com/identitytoolkit/v3/relyingparty'
     //     '/$urlSegment?key=AIzaSyC13spCwP_f_SalxEbkB-wjedoF8iYENlQ';
-    final url=Uri.parse('https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key=AIzaSyCW9dEbRWKViArLtl75YlbcYUQHDXXkRB0' );
+    final url=Uri.parse('https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key=Api_key' );
     try {
       final response = await http.post(
         url,
